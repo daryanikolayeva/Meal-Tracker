@@ -1,0 +1,120 @@
+# Adding 3 users... all should succeed 
+NEW USER ADDED
+=============================================
+NEW USER ADDED
+=============================================
+NEW USER ADDED
+=============================================
+# Attempt to add duplicate user... should fail 
+DUPLICATE USER
+=============================================
+# Adding 4 FRUITVEG... all should succeed 
+Food added
+=============================================
+Food added
+=============================================
+Food added
+=============================================
+Food added
+=============================================
+# Updating banana...
+Food updated
+Food added
+=============================================
+# Adding 3 GRAIN... all should succeed
+Food added
+=============================================
+Food added
+=============================================
+Food added
+=============================================
+# Adding 2 DAIRY... both should succeed
+Food added
+=============================================
+Food added
+=============================================
+# Adding 2 MEAT... both should succeed
+Food added
+=============================================
+Food added
+=============================================
+# Adding 2 OTHER... both should succeed
+Food added
+=============================================
+Food added
+=============================================
+# Adding cheeseburger... should succeed
+Composite food added: cheeseburger
+=============================================
+# Trying to update cheeseburger... should fail with no lettuce
+Can't add food, ingredient doesn't exist in library
+=============================================
+# Adding lettuce then updating cheeseburger... should succeed
+Food added
+=============================================
+Food updated
+Composite food added: cheeseburger
+=============================================
+# runner123 eating cheeseburger, apple, carrot...
+Meal added
+=============================================
+Meal added
+=============================================
+Meal added
+=============================================
+# runner123 eating foods that don't exist... both should fail with food not found
+FOOD NOT FOUND
+=============================================
+FOOD NOT FOUND
+=============================================
+# unknown user eating... should fail with user not found
+USER NOT FOUND
+=============================================
+# krd2004 eating tenderloin, corn tortilla, handful jellybeans... all should succeed
+Meal added
+=============================================
+Meal added
+=============================================
+Meal added
+=============================================
+# runner123 has consumed 865 calories
+Total calories 865.0
+=============================================
+# krd2004 has consumed 665 calories
+Total calories 665.0
+=============================================
+# unknown user...
+USER NOT FOUND
+=============================================
+# runner123 has consumed 3 fruit/veg, 1 dairy, 1 meat, 1 grain, 0 other
+Serving history for :runner123
+Fruit and Vegetable: 3
+Dairy: 1
+Meat: 1
+Grain: 1
+Other: 0
+
+=============================================
+# krd2004 has consumed 0 fruit/veg, 0 dairy, 1 meat, 1 grain, 1 other
+Serving history for :krd2004
+Fruit and Vegetable: 0
+Dairy: 0
+Meat: 1
+Grain: 1
+Other: 1
+
+=============================================
+# meals for runner123:
+Meal history of user: runner123
+FRUITVEG large carrot VEG
+FRUITVEG apple FRUIT
+Composite Food: cheeseburger
+Totals:
+865.0 calories
+39.8 protein
+36.7 fat
+0.0 sugar
+
+=============================================
+# Exiting...
+Done
